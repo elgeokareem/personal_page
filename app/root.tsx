@@ -43,7 +43,7 @@ function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      <main className="px-10 py-9">{children}</main>
     </>
   );
 }

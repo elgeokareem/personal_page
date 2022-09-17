@@ -86,28 +86,28 @@ function Navbar() {
         className: "flex gap-4 cursor-pointer",
         children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", {
-            children: "item1"
+            children: "Home"
           }, void 0, !1, {
             fileName: "app/shared/Navbar.tsx",
             lineNumber: 5,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", {
-            children: "item2"
+            children: "About me"
           }, void 0, !1, {
             fileName: "app/shared/Navbar.tsx",
             lineNumber: 6,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", {
-            children: "item3"
+            children: "Algo mas"
           }, void 0, !1, {
             fileName: "app/shared/Navbar.tsx",
             lineNumber: 7,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", {
-            children: "item4"
+            children: "Algo mas"
           }, void 0, !1, {
             fileName: "app/shared/Navbar.tsx",
             lineNumber: 8,
@@ -121,7 +121,7 @@ function Navbar() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
-          children: "Kek"
+          children: "Login"
         }, void 0, !1, {
           fileName: "app/shared/Navbar.tsx",
           lineNumber: 12,
@@ -141,7 +141,7 @@ function Navbar() {
 }
 
 // app/styles/app.css
-var app_default = "/build/_assets/app-QQPXHWZ3.css";
+var app_default = "/build/_assets/app-PWAFFBCR.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime");
@@ -226,6 +226,7 @@ function Layout({ children }) {
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("main", {
+        className: "px-10 py-9",
         children
       }, void 0, !1, {
         fileName: "app/root.tsx",
@@ -275,16 +276,48 @@ __export(routes_exports, {
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime");
 function Index() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-    children: "soy un div"
+    className: "flex justify-center",
+    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+      className: "flex flex-col items-center",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+          className: "text-[30px]",
+          children: "Hello! \u{1F44B} I'm William"
+        }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 5,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", {
+          className: "text-xl",
+          children: "I'm a fullstack web developer"
+        }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 6,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h5", {
+          children: "and this page is under construction"
+        }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 7,
+          columnNumber: 9
+        }, this)
+      ]
+    }, void 0, !0, {
+      fileName: "app/routes/index.tsx",
+      lineNumber: 4,
+      columnNumber: 7
+    }, this)
   }, void 0, !1, {
     fileName: "app/routes/index.tsx",
-    lineNumber: 2,
-    columnNumber: 10
+    lineNumber: 3,
+    columnNumber: 5
   }, this);
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "c18781ca", entry: { module: "/build/entry.client-WW4MMKVV.js", imports: ["/build/_shared/chunk-DLABICMA.js", "/build/_shared/chunk-OLWUHBIH.js", "/build/_shared/chunk-WWWS7TQW.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-BTTKOMSB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-AIAPHHTL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/posts/first-post": { id: "routes/posts/first-post", parentId: "root", path: "posts/first-post", index: void 0, caseSensitive: void 0, module: "/build/routes/posts/first-post-Y5CQ6F6M.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-C18781CA.js" };
+var assets_manifest_default = { version: "f89b785a", entry: { module: "/build/entry.client-WW4MMKVV.js", imports: ["/build/_shared/chunk-DLABICMA.js", "/build/_shared/chunk-OLWUHBIH.js", "/build/_shared/chunk-WWWS7TQW.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-LKK2NDBL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-5OLHGWWR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/posts/first-post": { id: "routes/posts/first-post", parentId: "root", path: "posts/first-post", index: void 0, caseSensitive: void 0, module: "/build/routes/posts/first-post-Y5CQ6F6M.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-F89B785A.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
