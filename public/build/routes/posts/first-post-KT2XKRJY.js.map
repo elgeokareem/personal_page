@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["mdx:routes/posts/first-post.mdx"],
-  "sourcesContent": ["\n/*@jsxRuntime classic @jsx React.createElement @jsxFrag React.Fragment*/\nimport React from \"react\";\nfunction MDXContent(props = {}) {\n  const _components = Object.assign({}, props.components), {wrapper: MDXLayout} = _components;\n  const _content = <></>;\n  return MDXLayout ? <MDXLayout {...props}>{_content}</MDXLayout> : _content;\n}\nexport default MDXContent;\n\n\nexport const filename = \"first-post.mdx\";\nexport const headers = typeof attributes !== \"undefined\" && attributes.headers;\nexport const meta = typeof attributes !== \"undefined\" && attributes.meta;\n          "],
-  "mappings": ";;;;;;AAEA,mBAAkB;AAClB,SAAS,WAAW,QAAQ,CAAC,GAAG;AAC9B,QAAM,cAAc,OAAO,OAAO,CAAC,GAAG,MAAM,UAAU,GAAG,EAAC,SAAS,UAAS,IAAI;AAChF,QAAM,WAAW,6BAAAA,QAAA,2BAAAA,QAAA,cAAE;AACnB,SAAO,YAAY,6BAAAA,QAAA,cAAC;AAAA,IAAW,GAAG;AAAA,KAAQ,QAAS,IAAe;AACpE;AACA,IAAO,qBAAQ;AAIR,IAAM,UAAU,OAAO,eAAe,eAAe,WAAW;AAChE,IAAM,OAAO,OAAO,eAAe,eAAe,WAAW;",
-  "names": ["React"]
-}
