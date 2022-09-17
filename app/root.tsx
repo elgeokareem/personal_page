@@ -7,6 +7,7 @@ import {
   Scripts,
   ScrollRestoration
 } from "@remix-run/react";
+import Navbar from "./shared/Navbar";
 import styles from "./styles/app.css";
 
 export function links() {
@@ -15,7 +16,7 @@ export function links() {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "William's Blog",
   viewport: "width=device-width,initial-scale=1"
 });
 
@@ -26,12 +27,23 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
-        <Outlet />
+      <body className="bg-[#121212] text-white">
+        <Layout>
+          <Outlet />
+        </Layout>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
       </body>
     </html>
+  );
+}
+
+function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <>
+      <Navbar />
+      <main>{children}</main>
+    </>
   );
 }
