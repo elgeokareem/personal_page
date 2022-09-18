@@ -564,10 +564,6 @@ video {
   height: 3.5rem;
 }
 
-.w-\[40\%\] {
-  width: 40%;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -612,14 +608,14 @@ video {
   padding-bottom: 2.25rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .px-\[30\%\] {
   padding-left: 30%;
   padding-right: 30%;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .text-\[40px\] {
